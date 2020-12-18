@@ -62,7 +62,7 @@ class _CalculatorState extends State<Calculator> {
                         children: <Widget>[
                           Icon(
                             Icons.location_off,
-                            size: 90.0,
+                            size: 60.0,
                             color: globalColor,
                           ),
                           SizedBox(
@@ -90,7 +90,7 @@ class _CalculatorState extends State<Calculator> {
                         children: <Widget>[
                           Icon(
                             Icons.location_on,
-                            size: 90.0,
+                            size: 60.0,
                             color: asiaColor,
                           ),
                           SizedBox(
@@ -119,7 +119,7 @@ class _CalculatorState extends State<Calculator> {
                     style: TextStyle(fontSize: 20.0),
                   ),
                   SizedBox(
-                    height: 10.0,
+                    height: 5.0,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -172,7 +172,7 @@ class _CalculatorState extends State<Calculator> {
                           ),
                         ),
                         SizedBox(
-                          height: 10.0,
+                          height: 5.0,
                         ),
                         Text(
                           newWeight.toString(),
@@ -188,7 +188,7 @@ class _CalculatorState extends State<Calculator> {
                                       newWeight--;
                                     });
                                   },
-                                  child: Icon(Icons.remove, size: 40.0)),
+                                  child: Icon(Icons.remove, size: 30.0)),
                             ),
                             Expanded(
                               child: FlatButton(
@@ -199,7 +199,7 @@ class _CalculatorState extends State<Calculator> {
                                 },
                                 child: Icon(
                                   Icons.add,
-                                  size: 40.0,
+                                  size: 30.0,
                                 ),
                               ),
                             ),
@@ -222,7 +222,7 @@ class _CalculatorState extends State<Calculator> {
                           ),
                         ),
                         SizedBox(
-                          height: 10.0,
+                          height: 5.0,
                         ),
                         Text(
                           newAge.toString(),
@@ -240,7 +240,7 @@ class _CalculatorState extends State<Calculator> {
                                 },
                                 child: Icon(
                                   Icons.remove,
-                                  size: 40.0,
+                                  size: 30.0,
                                 ),
                               ),
                             ),
@@ -253,7 +253,7 @@ class _CalculatorState extends State<Calculator> {
                                 },
                                 child: Icon(
                                   Icons.add,
-                                  size: 40.0,
+                                  size: 30.0,
                                 ),
                               ),
                             )
